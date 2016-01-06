@@ -5,16 +5,6 @@ body {
     padding: 20px;
 }
 
-/*img {*/
-/*max-width: 100%;*/
-/*height: auto;*/
-/*}*/
-
-.responsive-image {
-    width: 100%;
-    background-size: 100% 100%;
-}
-
 #myQuiz {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -35,8 +25,8 @@ body {
     text-transform: uppercase;
     margin: 0px;
     position: absolute;
-    top: 25px;
-    left: 50px;
+    top: 10px;
+    left: 3px;
 }
 
 #myQuiz h1 span {
@@ -83,4 +73,68 @@ body {
 
 #myQuiz .intro p {
     margin: 0px 0px 40px 0px;
+}
+
+/* Question */
+#myQuiz .question {
+    width: 550px;
+    position: absolute;
+    top: 225px;
+    left: 40px
+}
+
+#myQuiz .question .text {
+    font-size: 1.6em;
+    margin: 0px 0px 20px 0px;
+}
+
+#myQuiz .question .answer {
+    display: inline-block;
+    font-size: 1.1em;
+    width: 225px;
+    border: 2px solid rgba(238, 189, 102, .4);
+    border-radius: 6px;
+    padding: 10px;
+    margin: 0px 15px 15px 0px;
+    position: relative
+}
+
+#myQuiz .question .answer.selected {
+    border-color: #be4b16;
+}
+
+#myQuiz .question .answer.correct {
+    border-color: #459a2e;
+}
+
+#myQuiz .question .answer::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 0px 0px;
+    background-size: 20px 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#myQuiz .question .answer.selected::after {
+    background-image: url(../images/icon_incorrect.svg);
+}
+
+#myQuiz .question .answer.correct::after {
+    background-image: url(../images/icon_correct.svg);
+}
+
+#myQuiz .question.unanswered .answer {
+    cursor: pointer;
+}
+
+#myQuiz .question.unanswered .answer:hover {
+    background-color: rgba(238,189,102,.2);
+}
+
+#myQuiz .question.answered .answer {
+    cursor: default;
 }
