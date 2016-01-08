@@ -1,0 +1,68 @@
+[
+
+  {
+    "question" : "Which of the following artists has NOT performed on the P-Funk stage?",
+    "answer" : [
+      {"id" : 0, "text" : "Bootsy Collins"},
+      {"id" : 1, "text" : "Sly Stone"},
+      {"id" : 2, "text" : "Bernie Worrell"},
+      {"id" : 3, "text" : "Nona Hendrix"},
+      {"id" : 4, "text" : "David Byrne"}
+    ],
+    "correct" : 4
+  },
+
+  {
+    "question" : "Which image shows a close-up of Saturn?",
+    "answers"  : [
+      {"id"  : 0, "image" : "images/close_up_01.jpg" },
+      {"id"  : 1, "image" : "images/close_up_02.jpg" },
+      {"id"  : 2, "image" : "images/close_up_03.jpg" },
+      {"id"  : 3, "image" : "images/close_up_04.jpg" }
+    ],
+    "correct"  : 3
+  },
+  {
+    "question" : "Which female artist has been called the Queen of Funk?",
+    "answers"  : [
+      {"id"  : 0, "text" : "Lady Gaga"},
+      {"id"  : 1, "text" : "Betty Davis"},
+      {"id"  : 2, "text" : "Chaka Khan"},
+      {"id"  : 3, "text" : "Madonna"}
+    ],
+    "correct"  : 2
+  },
+  {
+    "question" : "Many jazz artists were so affected by the funk movement that they wanted to record an album to contribute to the sound. Who released the jazz-funk record titled 'Head Hunters' in 1973?",
+    "answers"  : [
+      {"id"  : 0, "text" : "Donald Byrd"},
+      {"id"  : 1, "text" : "John McLaughlin"},
+      {"id"  : 2, "text" : "Miles Davis"},
+      {"id"  : 3, "text" : "Herbie Hancock"},
+      {"id"  : 4, "text" : "Stevie Wonder"},
+      {"id"  : 5, "text" : "Lou Rawls"}
+    ],
+    "correct"  : 3,
+    "feedback" : "In 2007, the Library of Congress added it to the National Recording Registry, which collects 'culturally, historically or aesthetically importan' sound recordings from the 20th century."
+  },
+  {
+    "question" : "The Parliaments' first performance at the Apollo Theater in 1967 was a flop.",
+    "answers"  : [
+      {"id"  : 0, "text" : "True"},
+      {"id"  : 1, "text" : "False"}
+    ],
+    "correct"  : 0
+  },
+
+  {
+    "question" : "Which iconic bass player, probably one of the more colorful and well known figures in funk music, played with both James Brown and George Clinton?",
+    "answer" : [
+      {"id" : 0, "text" : "Stanley Clarke"},
+      {"id" : 1, "text" : "Larry Graham"},
+      {"id" : 2, "text" : "Bootsy Collins"},
+      {"id" : 3, "text" : "Tony Levin"},
+      {"id" : 4, "text" : "Jaco Pastorius"}
+    ],
+    "correct" : 4
+  }
+]
