@@ -2,7 +2,7 @@
 
   {
     "question" : "Which of the following artists has NOT performed on the P-Funk stage?",
-    "answer" : [
+    "answers" : [
       {"id" : 0, "text" : "Bootsy Collins"},
       {"id" : 1, "text" : "Sly Stone"},
       {"id" : 2, "text" : "Bernie Worrell"},
