@@ -9,14 +9,18 @@
 <body>
 
 <div id="myQuiz" ng-controller="QuizController">
-    <h1>Test Your Knowledge:<span>Funk</span></h1>
 
+    <h1>Test Your Knowledge:<span>Funk</span></h1>
     <div class="progress">
-        <div class="{{ ($index === activeQuestion) ? 'on' : 'off' }}"  ng-repeat="myQuestion in myQuestions"></div>
+        <div class="
+        {{ ($index === activeQuestion) ? 'on' : 'off' }}
+        {{ (myQuestion.questionState === 'answered') ? 'answered' : 'unanswered' }}
+        {{ (myQuestion.correctness === 'correct') ? 'correct' : 'incorrect' }}
+        "  ng-repeat="myQuestion in myQuestions"></div>
     </div>
     <div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active' }}">
         <h2>Welcome</h2>
-        <p>Click begin to test your knowledge of the Funk music.</p>
+        <p>Click begin to test your knowledge of Funk music.</p>
         <p class="btn" ng-click="activeQuestion = 0">Begin</p>
     </div>
     <div class="question
@@ -26,9 +30,9 @@
         <p class="text">{{myQuestion.question}}</p>
         <p class="answer"
            ng-class="{
-           image: Answer.image,
+           image:Answer.image,
            selected:isSelected($parent.$index, $index),
-            correct:isCorrect($parent.$index, $index)
+           correct:isCorrect($parent.$index, $index)
              }"
            ng-style="{ 'background-image':'url({{Answer.image}}'}"
            ng-click="selectAnswer($parent.$index, $index)"
@@ -42,9 +46,9 @@
             <div class="btn"ng-click="selectContinue()" >Continue</div>
         </div>
     </div>
-    <div class="results">
+    <div class="results {{ (totalQuestions === activeQuestion ) ? 'active' : 'inactive' }} ">
         <h3>Results</h3>
-        <p>You scored X% by correctly answering X of the total X questions.</p>
+        <p>You scored {{percentage | number :1}}% by correctly answering {{score}} of the total {{totalQuestions}} questions.</p>
         <p>Use the links below to challenge your friends</p>
         <div class="share">
             <a class="btn email" href="#">Email</a>

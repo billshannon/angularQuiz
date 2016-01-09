@@ -43,7 +43,7 @@
       {"id"  : 5, "text" : "Lou Rawls"}
     ],
     "correct"  : 3,
-    "feedback" : "In 2007, the Library of Congress added it to the National Recording Registry, which collects 'culturally, historically or aesthetically importan' sound recordings from the 20th century."
+    "feedback" : "In 2007........"
   },
   {
     "question" : "The Parliaments' first performance at the Apollo Theater in 1967 was a flop.",
@@ -56,13 +56,13 @@
 
   {
     "question" : "Which iconic bass player, probably one of the more colorful and well known figures in funk music, played with both James Brown and George Clinton?",
-    "answer" : [
+    "answers" : [
       {"id" : 0, "text" : "Stanley Clarke"},
       {"id" : 1, "text" : "Larry Graham"},
       {"id" : 2, "text" : "Bootsy Collins"},
       {"id" : 3, "text" : "Tony Levin"},
       {"id" : 4, "text" : "Jaco Pastorius"}
     ],
-    "correct" : 4
+    "correct" : 2
   }
 ]
