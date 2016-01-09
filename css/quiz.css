@@ -192,6 +192,13 @@ body {
     cursor: default;
 }
 
+#myQuiz .question .answer.image {
+    min-height: 60px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
 /* Feedback */
 #myQuiz .feedback {
     color: #efbe5e;
