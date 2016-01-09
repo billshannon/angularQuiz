@@ -100,7 +100,8 @@ body {
 
 #myQuiz .progress div.on,
 #myQuiz .progress div.answered {
-    background-color: #efbe5e;
+    /*background-color: #efbe5e;*/
+    background-color: #f05f40;
 }
 
 #myQuiz .progress div.correct::after {
