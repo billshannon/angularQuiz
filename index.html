@@ -12,14 +12,14 @@
     <h1>Test Your Knowledge:<span>Funk</span></h1>
 
     <div class="progress">
-        <div ng-repeat="myQuestion in myQuestions"></div>
+        <div class="{{ ($index === activeQuestion) ? 'on' : 'off' }}"  ng-repeat="myQuestion in myQuestions"></div>
     </div>
 
 
     <div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active' }}">
         <h2>Welcome</h2>
         <p>Click begin to test your knowledge of the Funk music.</p>
-        <p class="btn">Begin</p>
+        <p class="btn" ng-click="activeQuestion = 0">Begin</p>
     </div>
     <div class="question unanswered">
         <p class="text">This is a question</p>
