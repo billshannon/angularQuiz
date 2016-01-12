@@ -6,22 +6,20 @@
       {"id" : 0, "text" : "Bootsy Collins"},
       {"id" : 1, "text" : "Sly Stone"},
       {"id" : 2, "text" : "Bernie Worrell"},
-      {"id" : 3, "text" : "Nona Hendrix"},
-      {"id" : 4, "text" : "David Byrne"}
+      {"id" : 3, "text" : "David Bowie"}
     ],
-    "correct" : 4
+    "correct" : 3
   },
-
-  {
-    "question" : "Which image shows a close-up of Saturn?",
-    "answers"  : [
-      {"id"  : 0, "image" : "images/close_up_01.jpg" },
-      {"id"  : 1, "image" : "images/close_up_02.jpg" },
-      {"id"  : 2, "image" : "images/close_up_03.jpg" },
-      {"id"  : 3, "image" : "images/close_up_04.jpg" }
-    ],
-    "correct"  : 3
-  },
+//  {
+//    "question" : "Which image shows a close-up of Saturn?",
+//    "answers"  : [
+//      {"id"  : 0, "image" : "images/close_up_01.jpg" },
+//      {"id"  : 1, "image" : "images/close_up_02.jpg" },
+//      {"id"  : 2, "image" : "images/close_up_03.jpg" },
+//      {"id"  : 3, "image" : "images/close_up_04.jpg" }
+//    ],
+//    "correct"  : 3
+//  },
   {
     "question" : "Which female artist has been called the Queen of Funk?",
     "answers"  : [
@@ -43,7 +41,7 @@
       {"id"  : 5, "text" : "Lou Rawls"}
     ],
     "correct"  : 3,
-    "feedback" : "In 2007........"
+    "feedback" : ""
   },
   {
     "question" : "The Parliaments' first performance at the Apollo Theater in 1967 was a flop.",
