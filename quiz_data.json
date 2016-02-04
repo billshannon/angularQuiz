@@ -10,16 +10,7 @@
     ],
     "correct" : 3
   },
-//  {
-//    "question" : "Which image shows a close-up of Saturn?",
-//    "answers"  : [
-//      {"id"  : 0, "image" : "images/close_up_01.jpg" },
-//      {"id"  : 1, "image" : "images/close_up_02.jpg" },
-//      {"id"  : 2, "image" : "images/close_up_03.jpg" },
-//      {"id"  : 3, "image" : "images/close_up_04.jpg" }
-//    ],
-//    "correct"  : 3
-//  },
+
   {
     "question" : "Which female artist has been called the Queen of Funk?",
     "answers"  : [
@@ -30,6 +21,7 @@
     ],
     "correct"  : 2
   },
+
   {
     "question" : "Many jazz artists were so affected by the funk movement that they wanted to record an album to contribute to the sound. Who released the jazz-funk record titled 'Head Hunters' in 1973?",
     "answers"  : [
