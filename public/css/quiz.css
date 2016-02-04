@@ -14,7 +14,7 @@ body {
     position: relative;
     overflow: hidden;
     color: #fff;
-    background: #000 url(../images/James-Brown_40op.png) no-repeat 0px 0px;
+    background: #000 url(../public/images/James-Brown_40op.png) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -93,7 +93,7 @@ body {
     left: -15px;
     width: 65px;
     height: 40px;
-    background: url(../images/ring.svg) no-repeat 0px 0px;
+    background: url(../public/images/ring.svg) no-repeat 0px 0px;
     transition: opacity 1s, top 1s;
     opacity: 0;
 }
@@ -167,11 +167,11 @@ body {
 }
 
 #myQuiz .question .answer.selected::after {
-    background-image: url(../images/icon_incorrect.svg);
+    background-image: url(../public/images/icon_incorrect.svg);
 }
 
 #myQuiz .question .answer.correct::after {
-    background-image: url(../images/icon_correct.svg);
+    background-image: url(../public/images/icon_correct.svg);
 }
 
 #myQuiz .question.unanswered .answer {
@@ -239,12 +239,12 @@ body {
 
 #myQuiz .results .share a.btn.email {
     background-color: #f0a121;
-    background-image: url(../images/icon_email.svg);
+    background-image: url(../public/images/icon_email.svg);
 }
 
 #myQuiz .results .share a.btn.twitter {
     background-color: #59adeb;
-    background-image: url(../images/icon_twitter.svg);
+    background-image: url(../public/images/icon_twitter.svg);
 }
 
 #myQuiz .active, #myQuiz .inactive {
